@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="14dp"
+    android:backgroundTint="@color/white"
+    android:elevation="3dp"
+    app:cardCornerRadius="16dp"
+    app:cardUseCompatPadding="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <!-- Learning space information -->
+        <TextView
+            android:id="@+id/tvContainerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/container_name_placeholder"
+            android:textColor="@color/text_black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvContainerDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/container_description_placeholder"
+            android:textColor="@color/text_muted"
+            android:textSize="14sp" />
+
+        <!-- Actions -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="end|center_vertical"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnEditContainer"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:minWidth="0dp"
+                android:text="@string/action_edit"
+                android:textAllCaps="false"
+                android:textColor="@color/brand_indigo"
+                android:textSize="13sp"
+                app:cornerRadius="10dp"
+                app:strokeColor="@color/lavender_500"
+                app:strokeWidth="1dp"
+                app:icon="@android:drawable/ic_menu_edit"
+                app:iconTint="@color/brand_indigo"
+                app:iconSize="16dp"
+                app:iconPadding="6dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnDeleteContainer"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:minWidth="0dp"
+                android:text="@string/action_delete"
+                android:textAllCaps="false"
+                android:textColor="@color/error_text_dark"
+                android:textSize="13sp"
+                app:backgroundTint="@color/error_surface_warm"
+                app:cornerRadius="10dp"
+                app:icon="@android:drawable/ic_menu_delete"
+                app:iconTint="@color/error_text_dark"
+                app:iconSize="16dp"
+                app:iconPadding="6dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

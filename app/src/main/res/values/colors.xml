@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- StudyLoop Theme -->
+    <color name="purple_200">#C7B8F5</color>
+    <color name="purple_500">#7656D6</color>
+    <color name="purple_700">#5635B5</color>
+
+    <!-- Text and Background -->
+    <color name="gray">#777777</color>
+    <color name="light_gray">#F8F7FC</color>
+
+    <!-- Brand accents -->
+    <color name="brand_indigo">#635BDB</color>
+    <color name="brand_indigo_dark">#5146D8</color>
+    <color name="brand_indigo_medium">#6658C8</color>
+    <color name="brand_indigo_deep">#5147B8</color>
+    <color name="brand_indigo_deep_alt">#5149B8</color>
+    <color name="brand_violet">#7169E8</color>
+    <color name="brand_violet_bright">#7C5CFC</color>
+    <color name="brand_violet_strong">#6C4DE6</color>
+    <color name="accent_purple">#8064E8</color>
+    <color name="accent_purple_dark">#6848C7</color>
+    <color name="accent_purple_light">#8A7BE8</color>
+    <color name="accent_purple_lighter">#A48AF4</color>
+    <color name="auth_blue">#4255D4</color>
+
+    <!-- Backgrounds and surfaces -->
+    <color name="background_primary">#F7F5FF</color>
+    <color name="background_soft">#F7F7FC</color>
+    <color name="background_auth">#F7F8FC</color>
+    <color name="background_muted">#F6F7FB</color>
+    <color name="surface_tint">#FBFAFF</color>
+    <color name="surface_analytics">#ECECF3</color>
+    <color name="surface_analytics_alt">#ECEAF5</color>
+
+    <!-- Lavender shades -->
+    <color name="lavender_50">#F0EBFF</color>
+    <color name="lavender_60">#F0EAFF</color>
+    <color name="lavender_70">#F0EEFF</color>
+    <color name="lavender_80">#EEECFF</color>
+    <color name="lavender_90">#EEEAF6</color>
+    <color name="lavender_100">#DCD9FF</color>
+    <color name="lavender_150">#E5E1FF</color>
+    <color name="lavender_200">#EAE8FF</color>
+    <color name="lavender_250">#E6E4FF</color>
+    <color name="lavender_300">#E9E2FA</color>
+    <color name="lavender_350">#EAE5F5</color>
+    <color name="lavender_400">#E5DFF3</color>
+    <color name="lavender_450">#D8CFF5</color>
+    <color name="lavender_500">#D8D5FA</color>
+    <color name="lavender_chip">#E9E4FF</color>
+    <color name="progress_track">#E9E5F8</color>
+
+    <!-- Dividers and borders -->
+    <color name="divider_lavender">#EAE4FA</color>
+    <color name="border_lavender">#E8E7F2</color>
+    <color name="border_lavender_soft">#E5E3F0</color>
+    <color name="border_lavender_muted">#EAE9F2</color>
+    <color name="border_lavender_light">#EAE8F2</color>
+    <color name="border_input_soft">#DDDBE8</color>
+
+    <!-- Primary text -->
+    <color name="text_primary">#292344</color>
+    <color name="text_primary_soft">#292544</color>
+    <color name="text_primary_deep">#25234A</color>
+    <color name="text_primary_deep_alt">#25233A</color>
+    <color name="text_primary_strong">#25253A</color>
+    <color name="text_primary_dark">#292642</color>
+    <color name="text_primary_deepest">#292746</color>
+    <color name="text_primary_ink">#292638</color>
+    <color name="text_primary_navy">#292940</color>
+    <color name="text_primary_plum">#30265C</color>
+    <color name="text_primary_dark_purple">#393052</color>
+    <color name="text_primary_indigo">#38316F</color>
+    <color name="text_primary_ink_black">#24243A</color>
+    <color name="text_primary_ink_deep">#20243A</color>
+    <color name="text_black">#202124</color>
+    <color name="text_topic_number">#202938</color>
+
+    <!-- Secondary text -->
+    <color name="text_secondary">#77778B</color>
+    <color name="text_secondary_alt">#77718B</color>
+    <color name="text_secondary_warm">#77718A</color>
+    <color name="text_secondary_muted">#77758E</color>
+    <color name="text_secondary_muted_alt">#77758D</color>
+    <color name="text_secondary_dark">#625D75</color>
+    <color name="text_secondary_home">#77788B</color>
+    <color name="text_hint">#9999AA</color>
+
+    <!-- Tertiary and muted text -->
+    <color name="text_tertiary">#858399</color>
+    <color name="text_tertiary_alt">#85839A</color>
+    <color name="text_tertiary_purple">#817B98</color>
+    <color name="text_tertiary_gray">#818294</color>
+    <color name="text_tertiary_soft">#8B849E</color>
+    <color name="text_tertiary_lavender">#8B82A5</color>
+    <color name="text_tertiary_cool">#88899A</color>
+    <color name="text_muted">#737783</color>
+    <color name="text_muted_alt">#737991</color>
+    <color name="text_muted_lavender">#918BA5</color>
+    <color name="text_disabled">#A19AB5</color>
+    <color name="text_placeholder">#9997AD</color>
+    <color name="text_subtle">#706A9A</color>
+
+    <!-- Error colors -->
+    <color name="error_surface">#FFF0F1</color>
+    <color name="error_surface_alt">#FFF0EF</color>
+    <color name="error_surface_warm">#FFF1F0</color>
+    <color name="error_text">#C04455</color>
+    <color name="error_text_soft">#C45161</color>
+    <color name="error_text_dark">#B42318</color>
+    <color name="error_red">#C62828</color>
+    <color name="error_red_dark">#D32F2F</color>
+    <color name="error_rose">#D95368</color>
+    <color name="error_rose_light">#D66B79</color>
+
+    <!-- Success colors -->
+    <color name="success_surface">#E3F5EC</color>
+    <color name="success_surface_light">#E4F7EE</color>
+    <color name="success_surface_soft">#E5F6EF</color>
+    <color name="success_border">#CDEBDD</color>
+    <color name="success_green">#209B76</color>
+    <color name="success_green_dark">#23845F</color>
+    <color name="success_green_medium">#43A878</color>
+    <color name="success_text">#38785A</color>
+    <color name="success_text_dark">#205C46</color>
+    <color name="success_text_muted">#568773</color>
+
+    <!-- Warning colors -->
+    <color name="warning_surface">#FFF5D9</color>
+    <color name="warning_surface_alt">#FFF0E5</color>
+    <color name="warning_text">#A77A19</color>
+    <color name="warning_text_dark">#785A19</color>
+    <color name="warning_text_muted">#9A7E40</color>
+    <color name="warning_orange">#C36B35</color>
+    <color name="warning_orange_dark">#874A2C</color>
+    <color name="warning_brown">#A87558</color>
+
+    <!-- Info colors -->
+    <color name="info_surface">#EAF5FF</color>
+    <color name="info_surface_alt">#E8F2FF</color>
+    <color name="info_text">#285C91</color>
+    <color name="info_blue">#3976B8</color>
+    <color name="info_text_muted">#55799C</color>
+
+</resources>

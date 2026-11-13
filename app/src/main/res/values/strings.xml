@@ -1,0 +1,321 @@
+<resources>
+    <string name="app_name">StudyLoop</string>
+
+    <!-- Authentication -->
+    <string name="auth_welcome_back">Welcome back!</string>
+    <string name="auth_sign_in_subtitle">Sign in to continue learning.</string>
+    <string name="auth_email_hint">Email address</string>
+    <string name="auth_password_hint">Password</string>
+    <string name="auth_sign_in">Sign In</string>
+    <string name="auth_go_to_register">Don\'t have an account? Create one</string>
+    <string name="auth_create_account_title">Create your account</string>
+    <string name="auth_register_subtitle">Start your learning journey with StudyLoop.</string>
+    <string name="auth_first_name_hint">First name</string>
+    <string name="auth_last_name_hint">Last name</string>
+    <string name="auth_create_account">Create Account</string>
+    <string name="auth_go_to_login">Already have an account? Sign in</string>
+    <string name="session_expired_message">Your session has expired. Please sign in again.</string>
+    <string name="startup_tagline">Your learning journey, organized.</string>
+    <string name="startup_session_verify_failed">Unable to verify your session. Please sign in again.</string>
+    <string name="startup_network_error">Unable to connect. Please try again.</string>
+
+    <!-- Shared symbols and actions -->
+    <string name="symbol_avatar_letter">S</string>
+    <string name="symbol_plus">+</string>
+    <string name="symbol_sparkle">✦</string>
+    <string name="symbol_review">↻</string>
+    <string name="symbol_progress">▤</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_cancel">Cancel</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_brand_subtitle">Your personal learning space</string>
+    <string name="dashboard_logout">Logout</string>
+    <string name="dashboard_banner_eyebrow">YOUR NEXT CHAPTER STARTS HERE</string>
+    <string name="dashboard_welcome_title">Welcome back! 👋</string>
+    <string name="dashboard_welcome_subtitle">Small steps today. Stronger knowledge tomorrow.</string>
+    <string name="dashboard_start_learning">Start Learning  →</string>
+    <string name="dashboard_quick_actions_title">Quick Actions</string>
+    <string name="dashboard_quick_actions_subtitle">What would you like to do today?</string>
+    <string name="dashboard_action_create_space">Create Space</string>
+    <string name="dashboard_action_create_space_subtitle">Organize your subjects</string>
+    <string name="dashboard_action_ask_ai">Ask AI</string>
+    <string name="dashboard_action_ask_ai_subtitle">Understand difficult ideas</string>
+    <string name="dashboard_action_review_due">Review Due</string>
+    <string name="dashboard_action_review_due_subtitle">Strengthen your memory</string>
+    <string name="dashboard_action_progress">My Progress</string>
+    <string name="dashboard_action_progress_subtitle">Explore your learning spaces</string>
+    <string name="dashboard_guide_title">Your Learning Journey</string>
+    <string name="dashboard_guide_body">Create spaces, build lessons, write notes, and use quizzes, summaries, and reviews to turn what you learn into lasting knowledge.</string>
+    <string name="dashboard_continue_learning">Continue Learning</string>
+    <string name="dashboard_continue_subtitle">Pick up where you left off.</string>
+    <string name="dashboard_see_all">See all</string>
+    <string name="dashboard_no_lessons">📚 No lessons yet. Create your first lesson to get started!</string>
+    <string name="dashboard_tip_title">A little learning tip</string>
+    <string name="dashboard_tip_body">Review what you learned after a short break. Revisiting ideas helps strengthen your memory.</string>
+    <string name="dashboard_logged_out">You have been logged out.</string>
+    <string name="dashboard_topics_completed">%1$d of %2$d topics completed</string>
+    <string name="dashboard_percent_complete">%1$d%% complete</string>
+
+    <!-- Learning spaces home -->
+    <string name="home_brand_subtitle">YOUR PERSONAL LEARNING SPACE</string>
+    <string name="home_welcome_prompt">What will you learn today?</string>
+    <string name="home_welcome_title">YOUR LEARNING JOURNEY</string>
+    <string name="home_welcome_body">Create a learning space, explore your lessons, and turn what you know into knowledge you can remember.</string>
+    <string name="home_spaces_title">Your learning spaces</string>
+    <string name="home_spaces_subtitle">Everything you\'re learning, in one place.</string>
+    <string name="home_new_space">+  New Learning Space</string>
+    <string name="home_empty_title">Make room for new ideas</string>
+    <string name="home_empty_body">Create your first learning space and start organizing your knowledge.</string>
+    <string name="home_empty_tagline">Start small. Keep learning.</string>
+    <string name="container_name_placeholder">Database Engineering</string>
+    <string name="container_description_placeholder">Your learning materials and notes.</string>
+    <string name="container_default_description">Explore your learning materials.</string>
+    <string name="recent_lesson_title_placeholder">Lesson title</string>
+    <string name="recent_lesson_topics_placeholder">3 of 8 topics completed</string>
+    <string name="recent_lesson_progress_placeholder">38% complete</string>
+
+    <!-- Learning space dialogs -->
+    <string name="create_space_title">New Learning Space</string>
+    <string name="create_space_description">Create a space to organize your lessons and study materials.</string>
+    <string name="create_space_name_hint">e.g. Database Engineering</string>
+    <string name="description_optional_hint">Description (optional)</string>
+    <string name="create_space_action">Create Learning Space</string>
+    <string name="create_space_creating">Creating...</string>
+    <string name="create_space_success">Learning space created successfully!</string>
+    <string name="space_name_required">Learning space name is required.</string>
+    <string name="edit_space_title">Edit Learning Space</string>
+    <string name="edit_space_description">Update your learning space details.</string>
+    <string name="edit_space_name_hint">Learning space name</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="saving">Saving...</string>
+    <string name="space_update_success">Learning space updated successfully!</string>
+    <string name="delete_space_title">Delete Learning Space</string>
+    <string name="delete_space_message">Are you sure you want to delete \"%1$s\"?</string>
+    <string name="space_delete_success">Learning space deleted successfully!</string>
+
+    <!-- Lessons list -->
+    <string name="lessons_back">‹  Learning Spaces</string>
+    <string name="lessons_header_placeholder">Learning Space</string>
+    <string name="lessons_subtitle">Your lessons, organized in one place.</string>
+    <string name="lessons_subtitle_active">Explore your lessons and continue learning.</string>
+    <string name="lessons_create_new">+  Create New Lesson</string>
+    <string name="lessons_count_title">Your Lessons</string>
+    <string name="lessons_count_format">Your Lessons (%1$d)</string>
+    <string name="lessons_empty">No lessons yet. Create your first lesson!</string>
+    <string name="lessons_open_error">Unable to open this Learning Space. Please try again.</string>
+    <string name="lesson_title_placeholder">Lesson Title</string>
+    <string name="lesson_date_placeholder">Created recently</string>
+    <string name="lesson_date_fallback">Lesson</string>
+
+    <!-- Lesson details -->
+    <string name="lesson_details_back">‹  Back to Lessons</string>
+    <string name="lesson_details_session_label">LEARNING SESSION</string>
+    <string name="lesson_topics_count_placeholder">0 topics</string>
+    <string name="lesson_topics_title">Lesson Topics</string>
+    <string name="lesson_add_topic">+ Add Topic</string>
+    <string name="lesson_empty_topics">No topics yet.\nAdd your first topic to start learning.</string>
+    <string name="practice_retention_label">PRACTICE &amp; RETENTION</string>
+    <string name="quizzes_title">Quizzes</string>
+    <string name="lesson_quizzes_subtitle">Test your understanding and reinforce what you\'ve learned.</string>
+    <string name="lesson_view_quizzes">View Quizzes</string>
+    <string name="lesson_hide_quizzes">Hide Quizzes</string>
+    <string name="lesson_create_quiz">+ Create Quiz</string>
+    <string name="lesson_creating_quiz">Creating...</string>
+    <string name="study_material_label">STUDY MATERIAL</string>
+    <string name="summaries_title">Summaries</string>
+    <string name="lesson_summaries_subtitle">Turn your lesson content into clear, organized study notes.</string>
+    <string name="lesson_view_summaries">View Summaries</string>
+    <string name="lesson_hide_summaries">Hide Summaries</string>
+    <string name="lesson_create_summary">+Create Summary</string>
+
+    <!-- Create lesson -->
+    <string name="create_lesson_title">Create a Lesson</string>
+    <string name="create_lesson_subtitle">Build your next learning session, one step at a time.</string>
+    <string name="lesson_title_label">Lesson Title *</string>
+    <string name="lesson_title_hint">e.g. Introduction to APIs</string>
+    <string name="content_type_title">Choose Content Type</string>
+    <string name="content_type_subtitle">Choose how you want to organize your material.</string>
+    <string name="content_type_structured">Structured\nAdd and organize topics manually</string>
+    <string name="content_type_unstructured">Unstructured\nLet AI organize your learning material</string>
+    <string name="topics_title">Topics</string>
+    <string name="topics_subtitle">Break your lesson into smaller learning units.</string>
+    <string name="raw_content_title">Raw Content</string>
+    <string name="raw_content_subtitle">Paste your notes or learning material below.</string>
+    <string name="raw_content_hint">Paste or write your learning material here...</string>
+    <string name="create_lesson_action">Create Lesson</string>
+    <string name="topic_number_format">Topic %1$d</string>
+    <string name="topic_title_required_hint">Topic title *</string>
+    <string name="topic_description_optional_hint">Topic description (optional)</string>
+    <string name="remove_topic">Remove Topic</string>
+    <string name="topic_form_required">At least one topic form must remain.</string>
+    <string name="lesson_title_required">Lesson title is required.</string>
+    <string name="lesson_type_required">Please select a lesson type: Structured or Unstructured.</string>
+    <string name="lesson_topics_required">Please add at least one topic.</string>
+    <string name="topic_title_required">Topic title is required.</string>
+    <string name="lesson_content_required">Please enter some content.</string>
+    <string name="lesson_space_identify_error">Unable to identify the Learning Space.</string>
+    <string name="lesson_title_field_hint">Lesson title</string>
+    <string name="edit_lesson_title">Edit Lesson</string>
+    <string name="action_save">Save</string>
+    <string name="lesson_title_empty">Lesson title cannot be empty.</string>
+    <string name="delete_lesson_title">Delete Lesson</string>
+    <string name="delete_lesson_message">Are you sure you want to delete \"%1$s\"?</string>
+
+    <!-- Topics -->
+    <string name="cd_mark_topic_completed">Mark topic as completed</string>
+    <string name="cd_edit_topic">Edit topic</string>
+    <string name="cd_delete_topic">Delete topic</string>
+    <string name="topic_title_placeholder">Topic title</string>
+    <string name="topic_description_placeholder">Topic description</string>
+    <string name="symbol_chevron_down">⌄</string>
+    <string name="symbol_chevron_up">⌃</string>
+
+    <!-- Lesson details dialogs and content -->
+    <string name="lesson_missing_info">Missing lesson information. Please go back and try again.</string>
+    <string name="lesson_topics_count_one">%1$d topic</string>
+    <string name="lesson_topics_count_many">%1$d topics</string>
+    <string name="topic_no_description">No description available.</string>
+    <string name="create_topic_title">Create Topic</string>
+    <string name="action_create">Create</string>
+    <string name="topic_title_required_dialog">Topic title is required</string>
+    <string name="edit_topic_title">Edit Topic</string>
+    <string name="delete_topic_title">Delete Topic</string>
+    <string name="delete_topic_message">Are you sure you want to delete \"%1$s\"?</string>
+    <string name="quiz_number_format">Quiz %1$d</string>
+    <string name="quiz_info_format">Difficulty: %1$s\nFormat: %2$s\nQuestions: %3$d</string>
+    <string name="quiz_created_success">Quiz created successfully!</string>
+    <string name="quiz_creation_failed">Quiz Creation Failed</string>
+    <string name="action_ok">OK</string>
+    <string name="quiz_scope_full_lesson">Full Lesson</string>
+    <string name="quiz_scope_selected_topics">Selected Topics</string>
+    <string name="quiz_scope_random">Random</string>
+    <string name="quiz_difficulty_easy">Easy</string>
+    <string name="quiz_difficulty_medium">Medium</string>
+    <string name="quiz_difficulty_hard">Hard</string>
+    <string name="quiz_format_multiple_choice">Multiple Choice</string>
+    <string name="quiz_format_open_text">Open Text</string>
+    <string name="quiz_format_fill_blanks">Fill Blanks</string>
+    <string name="quiz_format_true_false">True or False</string>
+    <string name="quiz_select_topics_label">Select Topics:</string>
+    <string name="quiz_number_of_questions_label">Number of Questions</string>
+    <string name="quiz_number_of_questions_hint">Number of questions</string>
+    <string name="create_quiz_title">Create Quiz</string>
+    <string name="quiz_question_count_invalid">Enter a valid number</string>
+    <string name="quiz_question_count_min">Number of questions must be at least 1</string>
+    <string name="select_at_least_one_topic">Please select at least one topic.</string>
+    <string name="no_topics_available">No topics available in this lesson.</string>
+    <string name="summary_created_format">Created: %1$s</string>
+    <string name="summary_title_fallback">Summary</string>
+    <string name="summary_title_format">Summary · %1$s</string>
+    <string name="summary_depth_short">Short</string>
+    <string name="summary_depth_medium">Medium</string>
+    <string name="summary_depth_detailed">Detailed</string>
+    <string name="summary_depth_title">Choose Summary Depth</string>
+    <string name="action_continue">Continue</string>
+    <string name="summary_scope_title">Choose Summary Scope</string>
+    <string name="no_topics_available_summary">No topics available for this lesson.</string>
+    <string name="select_topics_title">Select Topics</string>
+    <string name="generate_summary">Generate Summary</string>
+
+    <!-- Quizzes -->
+    <string name="quiz_title">Quiz</string>
+    <string name="quiz_answer_counter_format">%1$d / %2$d Answered</string>
+    <string name="quiz_answer_counter_placeholder">0 / 0 Answered</string>
+    <string name="quiz_submit">Submit Quiz</string>
+    <string name="quiz_submitting">Submitting...</string>
+    <string name="quiz_submitted">Quiz Submitted</string>
+    <string name="quiz_completed_title">Quiz Completed!</string>
+    <string name="quiz_result_message">Your Score\n\n%1$s%%\n\n%2$d out of %3$d correct answers\n\nScore: %4$s</string>
+    <string name="quiz_submission_failed">Submission Failed</string>
+    <string name="quiz_no_questions">No questions available.</string>
+    <string name="quiz_question_format">Question %1$d\n%2$s</string>
+    <string name="quiz_answer_hint">Write your answer here</string>
+    <string name="quiz_answer_all_required">Please answer all questions before submitting.</string>
+    <string name="action_done">Done</string>
+
+    <!-- Summary details -->
+    <string name="summary_back">‹ Back to Lesson</string>
+    <string name="summary_title">Lesson Summary</string>
+    <string name="summary_depth_placeholder">Medium Summary</string>
+    <string name="summary_date_placeholder">Created date</string>
+    <string name="summary_content_placeholder">Summary content will appear here.</string>
+    <string name="summary_delete">Delete Summary</string>
+    <string name="summary_missing_info">Missing summary information.</string>
+    <string name="summary_deleting">Deleting...</string>
+    <string name="summary_depth_format">%1$s Summary</string>
+    <string name="summary_delete_message">Are you sure you want to delete this summary?</string>
+
+    <!-- Review -->
+    <string name="review_title">Review</string>
+    <string name="review_subtitle">Revisit what you have learned and strengthen your memory.</string>
+    <string name="review_due_label">Due for review</string>
+    <string name="review_count_placeholder">0 lessons</string>
+    <string name="review_count_one">%1$d lesson</string>
+    <string name="review_count_many">%1$d lessons</string>
+    <string name="action_try_again">Try again</string>
+    <string name="review_empty">You\'re all caught up! No reviews due today.</string>
+    <string name="review_next_review_format">Next review: %1$s</string>
+    <string name="review_completing">Completing...</string>
+    <string name="review_complete">Complete Review</string>
+    <string name="review_untitled_lesson">Untitled lesson</string>
+    <string name="review_interval_format">Review interval: %1$d days</string>
+    <string name="review_not_scheduled">Not scheduled</string>
+
+    <!-- Symbols -->
+    <string name="symbol_books">📚</string>
+    <string name="symbol_check">✓</string>
+    <string name="symbol_pencil">✎</string>
+    <string name="symbol_arrow_up">↑</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_go_back">Go back</string>
+    <string name="cd_send_question">Send question</string>
+
+    <!-- Analytics -->
+    <string name="analytics_title">Your Analytics</string>
+    <string name="analytics_subtitle">Your learning journey, at a glance.</string>
+    <string name="analytics_overall_progress">OVERALL PROGRESS</string>
+    <string name="analytics_topics_completed_placeholder">0 of 0 topics completed</string>
+    <string name="analytics_learning_overview">Learning overview</string>
+    <string name="analytics_label_lessons">Lessons</string>
+    <string name="analytics_label_total_topics">Total topics</string>
+    <string name="analytics_label_annotations">Your annotations</string>
+    <string name="analytics_quiz_performance">Quiz performance</string>
+    <string name="analytics_label_quizzes_taken">Quizzes taken</string>
+    <string name="analytics_label_average_score">Average score</string>
+    <string name="analytics_average_score_placeholder">0%</string>
+    <string name="analytics_recent_learning">Recent learning</string>
+    <string name="analytics_recent_subtitle">Keep track of your latest lessons.</string>
+    <string name="analytics_empty">Your learning journey starts here.</string>
+    <string name="analytics_recent_title_placeholder">Introduction to Programming</string>
+    <string name="analytics_recent_date_placeholder">Last updated · Oct 24</string>
+    <string name="analytics_recent_topics_placeholder">4 of 8 topics completed</string>
+    <string name="analytics_recent_percentage_placeholder">50%</string>
+    <string name="analytics_date_format">Last updated · %1$s</string>
+    <string name="analytics_date_unavailable">Last updated · Date unavailable</string>
+    <string name="analytics_score_format">%1$d%%</string>
+    <string name="analytics_complete_label">COMPLETE</string>
+
+    <!-- Ask AI -->
+    <string name="ask_title">Ask AI</string>
+    <string name="ask_subtitle">Your personal learning assistant</string>
+    <string name="ask_assistant_label">AI Assistant</string>
+    <string name="ask_welcome_title">What would you like to learn?</string>
+    <string name="ask_welcome_body">Ask anything, explore new ideas, or get a difficult concept explained in a simpler way.</string>
+    <string name="ask_suggestion_java">✧   Explain a programming concept</string>
+    <string name="ask_suggestion_study">✧   Help me understand a difficult topic</string>
+    <string name="ask_thinking">Thinking...</string>
+    <string name="ask_input_hint">Ask anything...</string>
+    <string name="ask_disclaimer">AI can make mistakes. Verify important information.</string>
+    <string name="ask_enter_question">Enter your question first.</string>
+    <string name="ask_suggestion_java_prompt">Explain the difference between an interface and an abstract class in Java.</string>
+    <string name="ask_suggestion_study_prompt">Give me an effective study plan for learning programming.</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_learn">Learn</string>
+    <string name="nav_review">Review</string>
+    <string name="nav_analytics">Analytics</string>
+</resources>

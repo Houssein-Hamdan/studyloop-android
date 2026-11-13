@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Purple circle -->
+    <path
+        android:fillColor="@color/success_green_medium"
+        android:pathData="M12,2
+            A10,10 0,1 1 12,22
+            A10,10 0,1 1 12,2" />
+
+    <!-- White check mark -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M9.2,16.4
+            L5.4,12.6
+            L6.8,11.2
+            L9.2,13.6
+            L17.2,5.6
+            L18.6,7
+            Z" />
+
+</vector>

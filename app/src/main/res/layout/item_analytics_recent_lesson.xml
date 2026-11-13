@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bg_card_recent_lesson"
+    android:elevation="2dp">
+
+    ```
+    <TextView
+        android:id="@+id/tvRecentLessonTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/analytics_recent_title_placeholder"
+        android:textColor="@color/text_primary_deep_alt"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:maxLines="2"
+        android:ellipsize="end" />
+
+    <TextView
+        android:id="@+id/tvRecentLessonDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/analytics_recent_date_placeholder"
+        android:textColor="@color/text_tertiary_alt"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tvRecentLessonTopics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/analytics_recent_topics_placeholder"
+        android:textColor="@color/text_tertiary_alt"
+        android:textSize="13sp" />
+
+    <ProgressBar
+        android:id="@+id/pbRecentLessonProgress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_marginTop="12dp"
+        android:max="100"
+        android:progress="50"
+        android:progressDrawable="@drawable/bg_recent_lesson_progress" />
+
+    <TextView
+        android:id="@+id/tvRecentLessonPercentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="6dp"
+        android:text="@string/analytics_recent_percentage_placeholder"
+        android:textColor="@color/accent_purple"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

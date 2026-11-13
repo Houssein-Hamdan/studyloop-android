@@ -1,0 +1,18 @@
+<resources>
+
+    <style name="Base.Theme.StudyLoopAndroid"
+        parent="Theme.MaterialComponents.DayNight.NoActionBar" />
+
+    <style name="Theme.StudyLoopAndroid"
+        parent="Base.Theme.StudyLoopAndroid" />
+
+    <style name="Theme.StudyLoopAndroid.Starting"
+        parent="Theme.SplashScreen">
+
+        <item name="windowSplashScreenBackground">@color/background_primary</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.StudyLoopAndroid</item>
+
+    </style>
+
+</resources>
