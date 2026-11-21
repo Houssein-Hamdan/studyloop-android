@@ -31,6 +31,10 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 public class TakeQuizActivity extends AppCompatActivity {
 
+    // The API expects these exact values for true/false answers.
+    private static final String TRUE_ANSWER = "True";
+    private static final String FALSE_ANSWER = "False";
+
     private String containerId;
     private String lessonId;
 
@@ -228,7 +232,9 @@ public class TakeQuizActivity extends AppCompatActivity {
 
             questionLayout.addView(questionTitle);
 
-            String format = question.getFormat();
+            String format = question.getFormat() == null
+                    ? ""
+                    : question.getFormat().trim().toLowerCase(java.util.Locale.ROOT);
 
             if ("multiple_choice".equals(format) ||
                     "true_false".equals(format)) {
@@ -237,6 +243,17 @@ public class TakeQuizActivity extends AppCompatActivity {
                 radioGroup.setOrientation(RadioGroup.VERTICAL);
 
                 List<String> options = question.getOptions();
+
+                // True/False questions come back from the API without an
+                // options list (options = null), so the radio group would
+                // otherwise be added empty and no answer choices would show.
+                if (("true_false".equals(format))
+                        && (options == null || options.isEmpty())) {
+
+                    options = new ArrayList<>();
+                    options.add(TRUE_ANSWER);
+                    options.add(FALSE_ANSWER);
+                }
 
                 if (options != null) {
                     for (String option : options) {

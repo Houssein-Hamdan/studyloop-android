@@ -11,7 +11,6 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.RadioButton;
-import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -30,7 +29,6 @@ public class CreateLessonActivity extends AppCompatActivity {
     private EditText etLessonTitle;
     private EditText etRawContent;
 
-    private RadioGroup rgContentType;
     private RadioButton rbStructured;
     private RadioButton rbUnstructured;
 
@@ -49,6 +47,8 @@ public class CreateLessonActivity extends AppCompatActivity {
     private String containerId;
 
     private final List<TopicForm> topicForms = new ArrayList<>();
+
+    private int selectedContentType = View.NO_ID;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -73,7 +73,6 @@ public class CreateLessonActivity extends AppCompatActivity {
         etLessonTitle = findViewById(R.id.etLessonTitle);
         etRawContent = findViewById(R.id.etRawContent);
 
-        rgContentType = findViewById(R.id.rgContentType);
         rbStructured = findViewById(R.id.rbStructured);
         rbUnstructured = findViewById(R.id.rbUnstructured);
 
@@ -139,25 +138,33 @@ public class CreateLessonActivity extends AppCompatActivity {
 
     private void setupContentTypeSelector() {
 
-        rgContentType.setOnCheckedChangeListener((group, checkedId) -> {
 
-            layoutStructured.setVisibility(
-                    checkedId == R.id.rbStructured
-                            ? View.VISIBLE
-                            : View.GONE
-            );
+        rbStructured.setOnClickListener(v -> selectContentType(R.id.rbStructured));
+        rbUnstructured.setOnClickListener(v -> selectContentType(R.id.rbUnstructured));
+    }
 
-            layoutUnstructured.setVisibility(
-                    checkedId == R.id.rbUnstructured
-                            ? View.VISIBLE
-                            : View.GONE
-            );
+    private void selectContentType(int selectedId) {
 
-            if (checkedId == R.id.rbStructured
-                    && topicForms.isEmpty()) {
-                addTopicForm();
-            }
-        });
+        selectedContentType = selectedId;
+
+        rbStructured.setChecked(selectedId == R.id.rbStructured);
+        rbUnstructured.setChecked(selectedId == R.id.rbUnstructured);
+
+        layoutStructured.setVisibility(
+                selectedId == R.id.rbStructured
+                        ? View.VISIBLE
+                        : View.GONE
+        );
+
+        layoutUnstructured.setVisibility(
+                selectedId == R.id.rbUnstructured
+                        ? View.VISIBLE
+                        : View.GONE
+        );
+
+        if (selectedId == R.id.rbStructured && topicForms.isEmpty()) {
+            addTopicForm();
+        }
     }
 
     private void setupListeners() {
@@ -275,7 +282,7 @@ public class CreateLessonActivity extends AppCompatActivity {
 
         CreateLessonRequest request = null;
 
-        int selectedType = rgContentType.getCheckedRadioButtonId();
+        int selectedType = selectedContentType;
 
         if (selectedType != R.id.rbStructured
                 && selectedType != R.id.rbUnstructured) {
